@@ -1,6 +1,5 @@
 .banner-container {
     position: relative;
-    /* text-align: center; */
     height: 100%;
     width: 100%;
 }
@@ -13,6 +12,7 @@
     /* -webkit-filter: blur(0.5px); */
     top: 0%;
     position: sticky;
+    overflow: hidden;
 }
 
 .header-text {
@@ -100,4 +100,8 @@
     .error-toaster {
         width: 200%;
     }
+}
+
+.image-overflow {
+    overflow-x: hidden;
 }
