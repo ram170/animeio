@@ -1,0 +1,42 @@
+.show-main {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.anime-poster {
+    border-radius: 5px;
+    border: 0.5px solid black;
+    box-shadow: 5px 5px 5px black inset;
+    max-height: 300px;
+    max-width: 300px;
+    width: auto;
+}
+
+.heading {
+    font-weight: bold;
+    color: greenyellow;
+}
+
+.anime-title {
+    padding: 5px 5px;
+    background: blue;
+    font-size: x-large;
+
+}
+
+.block-component {
+    display: block;
+}
+
+.right {
+    float: right;
+}
+
+.popularity {
+    padding: 5px 5px;
+    background: white;
+    color: black;
+    font-size: x-large;
+}

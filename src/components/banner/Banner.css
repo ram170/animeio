@@ -1,0 +1,103 @@
+.banner-container {
+    position: relative;
+    /* text-align: center; */
+    height: 100%;
+    width: 100%;
+}
+
+.img{
+    width: auto;
+    height: 100%;
+    opacity: 0.2;
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(0.5px); */
+    top: 0%;
+    position: sticky;
+}
+
+.header-text {
+    position: absolute;
+    color: red;
+    left: 5%;
+    top: 2%;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.main-input-box {
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    background: white;
+    border: 1px solid black;
+    box-shadow: 1px 1px 8px #333;
+}
+
+.search-box {
+    top: 30%;
+    margin-right: 30%;
+    margin-left: 30%;
+    position: absolute;
+}
+
+.input-box-placeholder {
+    position: relative;
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+    color: #8c8c8c;
+    height: 30%;
+}
+
+.input-box-user-input {
+    text-align: left;
+    font-weight: lighter;
+    font-size: x-large;
+    color: #8c8c8c;
+    max-width: 190%;
+    max-height: 50%;
+    overflow-x: auto;
+    margin-left: 10px;
+}
+
+.searched-anime {
+    color: black !important;
+}
+
+.button {
+    position: absolute;
+    margin-top: 100px;
+}
+
+.error-toaster {
+    background: red;
+    color: white;
+    padding: 2px 2px;
+    width: 100%;
+    position: absolute;
+    /* margin-top: 90%; */
+}
+
+.scroll {
+    background: red;
+    color: white;
+    position: absolute;
+    width: 100%;
+    margin-top: 80px;
+    font-size: small;
+}
+
+@media (min-width: 1000px) {
+    .img {
+        width: 100%;
+    }
+
+    .main-input-box {
+        width: 200%;
+    }
+
+    .error-toaster {
+        width: 200%;
+    }
+}
