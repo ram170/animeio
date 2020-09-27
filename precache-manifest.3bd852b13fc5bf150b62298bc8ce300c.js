@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc74112725cd131c70b54d9d615d1dd6",
+    "revision": "c5c6166915c0b999619f79e9a02a32e9",
     "url": "/animeio/index.html"
   },
   {
-    "revision": "2dda4bed2b94dd7cbf04",
-    "url": "/animeio/static/css/main.5b612351.chunk.css"
+    "revision": "929b06e4a238c3e1e4d1",
+    "url": "/animeio/static/css/main.39ec9966.chunk.css"
   },
   {
     "revision": "6b1504d7e710062b16f8",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/animeio/static/js/2.d6e5c3d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2dda4bed2b94dd7cbf04",
-    "url": "/animeio/static/js/main.3fcd9800.chunk.js"
+    "revision": "929b06e4a238c3e1e4d1",
+    "url": "/animeio/static/js/main.86bbfc63.chunk.js"
   },
   {
     "revision": "ac5c36e82108f8fb0cb9",
