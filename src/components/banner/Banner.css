@@ -24,6 +24,10 @@
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     cursor: pointer;
+    z-index: 100;
+    opacity: 0.6;
+    border: 2px solid red;
+    padding: 0 5px;
 }
 
 .main-input-box {

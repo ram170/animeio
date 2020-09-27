@@ -60,9 +60,9 @@ export class banner extends Component {
         return (
             <div>
                 <div className="banner-container">
-                    <h1 className="header-text">anime.io</h1>
+                    <h1 className="header-text" onClick={this.resetState}>anime.io</h1>
                     <div className="image-overflow">
-                        <img className="img" onClick={this.resetState} src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/28402147-92a1-4060-be7f-0444dbae3bf8/dbhehvt-db573295-0c15-47b1-b271-cffb86b6f241.jpg/v1/fill/w_1024,h_640,q_75,strp/anime_collage_wallpaper_by_dinocojv_d8ayeyz_by_sayaky946_dbhehvt-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD02NDAiLCJwYXRoIjoiXC9mXC8yODQwMjE0Ny05MmExLTQwNjAtYmU3Zi0wNDQ0ZGJhZTNiZjhcL2RiaGVodnQtZGI1NzMyOTUtMGMxNS00N2IxLWIyNzEtY2ZmYjg2YjZmMjQxLmpwZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.YfI-xtIaFkPSvZrIAQu4ZOK6O3o6MIcyAnllwBb_cnk"></img>
+                        <img className="img" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/28402147-92a1-4060-be7f-0444dbae3bf8/dbhehvt-db573295-0c15-47b1-b271-cffb86b6f241.jpg/v1/fill/w_1024,h_640,q_75,strp/anime_collage_wallpaper_by_dinocojv_d8ayeyz_by_sayaky946_dbhehvt-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD02NDAiLCJwYXRoIjoiXC9mXC8yODQwMjE0Ny05MmExLTQwNjAtYmU3Zi0wNDQ0ZGJhZTNiZjhcL2RiaGVodnQtZGI1NzMyOTUtMGMxNS00N2IxLWIyNzEtY2ZmYjg2YjZmMjQxLmpwZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.YfI-xtIaFkPSvZrIAQu4ZOK6O3o6MIcyAnllwBb_cnk"></img>
                     </div>
                     <div className="search-box">
                         <h1>For weebs, by a weeb!</h1>
