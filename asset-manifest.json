@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/animeio/static/css/main.0f95371f.chunk.css",
-    "main.js": "/animeio/static/js/main.86d3089b.chunk.js",
-    "main.js.map": "/animeio/static/js/main.86d3089b.chunk.js.map",
+    "main.css": "/animeio/static/css/main.5b612351.chunk.css",
+    "main.js": "/animeio/static/js/main.98237f0d.chunk.js",
+    "main.js.map": "/animeio/static/js/main.98237f0d.chunk.js.map",
     "runtime-main.js": "/animeio/static/js/runtime-main.d2848321.js",
     "runtime-main.js.map": "/animeio/static/js/runtime-main.d2848321.js.map",
     "static/js/2.d6e5c3d5.chunk.js": "/animeio/static/js/2.d6e5c3d5.chunk.js",
     "static/js/2.d6e5c3d5.chunk.js.map": "/animeio/static/js/2.d6e5c3d5.chunk.js.map",
     "index.html": "/animeio/index.html",
-    "precache-manifest.1c05addacdf3d0105f3d42967b170ea2.js": "/animeio/precache-manifest.1c05addacdf3d0105f3d42967b170ea2.js",
+    "precache-manifest.106eebff041e6c47b6c8c3229c521d48.js": "/animeio/precache-manifest.106eebff041e6c47b6c8c3229c521d48.js",
     "service-worker.js": "/animeio/service-worker.js",
-    "static/css/main.0f95371f.chunk.css.map": "/animeio/static/css/main.0f95371f.chunk.css.map",
+    "static/css/main.5b612351.chunk.css.map": "/animeio/static/css/main.5b612351.chunk.css.map",
     "static/js/2.d6e5c3d5.chunk.js.LICENSE.txt": "/animeio/static/js/2.d6e5c3d5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d2848321.js",
     "static/js/2.d6e5c3d5.chunk.js",
-    "static/css/main.0f95371f.chunk.css",
-    "static/js/main.86d3089b.chunk.js"
+    "static/css/main.5b612351.chunk.css",
+    "static/js/main.98237f0d.chunk.js"
   ]
 }
