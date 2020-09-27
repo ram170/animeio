@@ -12,6 +12,11 @@ export class App extends Component {
   }
 
   getData = (param) => {
+    if (param === null) {
+      this.clearState();
+      this.setState({ responseSuccess: false });
+      return;
+    }
     axios.get(`https://kitsu.io/api/edge/anime?filter[text]=${param}`)
     .then((res) => {
       if (res.data.data.length > 0) {
@@ -22,6 +27,7 @@ export class App extends Component {
           this.setState({ responseJSON: [...this.state.responseJSON, structuredData]});
         }
         document.getElementsByClassName('success-text')[0].style.textDecoration = 'none';
+        document.querySelector('.success-text').scrollIntoView({ behavior: 'smooth', block: 'start' });
       } else {
         this.setState({ responseSuccess: false});
         this.setState({ responseJSON: []});
@@ -43,11 +49,17 @@ export class App extends Component {
     }
   }
 
+  clearState = () => {
+    this.setState({responseJSON: []});
+    this.setState({ responseSuccess: true});
+    document.getElementsByClassName('success-text')[0].style.textDecoration = 'line-through';
+  }
+
   render() {
     return (
       <div>
         <div className="bottom-border">
-          <Banner getData={this.getData} status={this.state.responseSuccess} response={this.state.responseJSON}></Banner>
+          <Banner getData={this.getData} status={this.state.responseSuccess} response={this.state.responseJSON} clearState={this.clearState}></Banner>
         </div>
         <div className="show-main-container">
           <br></br>
