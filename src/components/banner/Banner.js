@@ -69,14 +69,10 @@ export class banner extends Component {
                         <div className="main-input-box">
                             <div className="input-box-placeholder">
                             </div>
-                            <div className="input-box-user-input placeholder" contentEditable="true" onClick={this.placeholderFun} onBlur={this.disableFun}>
+                            <div className="input-box-user-input placeholder" spellcheck="false" contentEditable="true" onClick={this.placeholderFun} onBlur={this.disableFun}>
                                 Anime name?
                             </div>
                         </div>
-
-                        {/* Not needed since I automatically scroll to result div now*/}
-                        {/* { this.props.response.length > 0? <div className="scroll">Scroll down to see results!</div> : null}
-                        { !this.props.status ? <div className="error-toaster">Invalid name</div> : null} */}
 
                         { !this.props.status ? <div className="scroll">Invalid name</div> : null}
                         <Button className="button" size="lg" onClick={this.validate}>Search</Button>
