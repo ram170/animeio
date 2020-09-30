@@ -8,8 +8,6 @@
     width: auto;
     height: 100%;
     opacity: 0.2;
-    /* filter: blur(8px); */
-    /* -webkit-filter: blur(0.5px); */
     top: 0%;
     position: sticky;
     overflow: hidden;

@@ -58,6 +58,7 @@ export class App extends Component {
   render() {
     return (
       <div>
+        {/* TODO: Add loader */}
         <div className="bottom-border">
           <Banner getData={this.getData} status={this.state.responseSuccess} response={this.state.responseJSON} clearState={this.clearState}></Banner>
         </div>
